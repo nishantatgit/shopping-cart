@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductCardDisplay should render correctly 1`] = `
+<section
+  className="col-6 col-md-4 p-2"
+  key="p-1"
+>
+  <div
+    className="card h-100"
+  >
+    <img
+      alt="image of test-1"
+      className="card-img-top"
+      src="http://localhost/imgs/p-1.jpg"
+      title="test-1"
+    />
+    <div
+      className="card-body d-flex flex-column"
+    >
+      <div
+        className="card-title"
+      >
+        <span>
+          test-1
+        </span>
+        <span
+          className="font-weight-bold float-right mr-1"
+        >
+          $
+        </span>
+      </div>
+      <p
+        className="text-secondary pb-2"
+      />
+      <div
+        className="d-flex justify-content-center mt-auto"
+      >
+        <Link
+          className="btn mr-3 bg-info text-white"
+          replace={false}
+          to="/product-detail/p-1"
+        >
+          More Info
+        </Link>
+        <button
+          className="btn  float-right bg-info text-white"
+        >
+          Add To Cart
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+`;

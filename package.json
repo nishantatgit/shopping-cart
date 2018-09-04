@@ -1,0 +1,29 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "client": "cd client && yarn start",
+    "server": "cd server && nodemon app.js",
+    "db": "mongo createDB.js",
+    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
+  },
+  "author": "nishant",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "bootstrap": "^4.1.3",
+    "bootstrap-theme": "^5.0.0",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.6",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^5.0.1",
+    "react-bootstrap": "^0.32.1",
+    "reactstrap": "^6.3.1"
+  },
+  "devDependencies": {
+    "concurrently": "^3.6.1"
+  }
+}
